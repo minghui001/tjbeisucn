@@ -13,3 +13,4 @@ $(function () {
 		$(this).find(".nav_side").stop().slideUp(200);
 	})
 });
+
