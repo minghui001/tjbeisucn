@@ -15,10 +15,10 @@ $(function () {
 /*nav*/
 $(function () {
 	$(".nav_li").on("mouseenter", function () {
-		$(this).addClass("nav_li_active")
+		$(this).addClass(" active")
 		$(this).find(".nav_side").slideDown();
 	}).on("mouseleave", function () {
-		$(this).removeClass("nav_li_active");
+		$(this).removeClass(" active");
 		$(this).find(".nav_side").stop().slideUp(200);
 	})
 });
