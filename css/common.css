@@ -1,0 +1,402 @@
+#xy_main{
+    width:1211px;
+    height: auto;
+    min-height: 320px;
+    margin: 30px auto;
+}
+#xy_main_left{
+    float: left;
+    width: 250px;
+    height: 600px;
+}
+#xy_main_left h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+#xy_main_left ul{
+    margin-top: 10px;
+}
+#xy_main_left ul li{
+    font-size: 12px;
+    font-weight: bold;
+}
+#xy_main_left ul li a:hover{
+    background-color: #D1292E;
+    color: white !important;
+}
+#xy_main_left ul li a{
+    line-height: 45px;
+    display: block;
+    color: #000000;
+    border-bottom: 1px solid #A4A4A4;
+    text-decoration: none;
+    padding-left: 3px;
+}
+.lineHeight_a_25{
+    line-height: 22.5px !important;
+}
+.red_slected{
+    list-style: url("../images/about/lbg2.png") !important;
+}
+.red_slected a{
+    color: #D02D2E !important;
+}
+#xy_main_right{
+    float: left;
+    width: 920px;
+    margin-left: 20px;
+    height: auto;
+}
+.tb_title td{
+    background-color:#D2292E !important;
+    font-weight: bold !important;
+    color: white;
+}
+td{
+    border:solid #F8F8F8;
+    border-width:0px 1px 1px 0px;
+    padding:10px 0px 10px 10px;
+}
+table{
+    border:solid #F8F8F8;
+    border-width:1px 0px 0px 1px;
+    margin-top: 25px;
+}
+
+.qPic{
+    margin-top: 20px;
+}
+.qPic ul li{
+    float: left !important;
+    width: 25%;
+    height:auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.qPic ul li div:first-child{
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.qPic_2{
+    margin-top: 20px;
+}
+.qPic_2 ul li{
+    float: left;
+    width: 50%;
+    height:auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.qPic_2 ul li div:first-child{
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.bottom_name{
+    width:100%;
+    height: 40px;
+    background-color: rgba(210,41,46,0.7);
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.bottom_name h3{
+    width: 90%;
+    padding-left: 5px;
+    color: white;
+    line-height: 40px;
+    float: left;
+}
+.enterIcon{
+    background: url("../images/cr-2.png") no-repeat;
+    background-size: 100% 100%;
+    width:38px;
+    height:38px;
+    margin: 0 auto;
+}
+.enterIcon_1{
+    background: url("../images/cr-1.png") no-repeat;
+    background-size: 100% 100%;
+    width:29px;
+    height:29px;
+    float: left;
+    margin: 5px 0 0 0px;
+}
+/*about start*/
+#about_pic2 img{
+    margin-top: 20px;
+}
+
+#cp_introduction{
+    margin-top: 30px;
+}
+#cp_introduction h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+#introduction p{
+    margin-top: 10px;
+}
+#development{
+    margin-top: 50px;
+}
+#dev_d{
+    width:920px;
+    height: 120px;
+    background: url("../images/about/pic3.png") no-repeat top;
+    margin-top: 30px;
+}
+#dev_d ul li{
+    float: left;
+    width: 185px;
+    padding: 20px 0 0 45px;
+}
+#dev_d ul li p{
+    margin-top: 5px;
+}
+/*about end*/
+
+.capa_d{
+    width:920px;
+    margin: 30px 0 30px 0;
+}
+.capa_d h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.capa_d p{
+    width: 100%;
+    line-height: 24px;
+    margin-top: 3px;
+}
+
+.cpli{
+    width: 120px;
+    margin: 15px 0 15px 15px;
+}
+.cpli ul li{
+    list-style: disc;
+    float: left;
+    width: 50%;
+    line-height: 20px;
+}
+.cpli_2{
+    width: 100%;
+    margin: 15px 0 15px 0px;
+}
+.cpli_2 ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    margin-top: 3px;
+}
+.cpli_2 ul li div:first-child{
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.cpli_2 ul li li{
+    list-style: disc;
+    float: none !important;
+    width: 200px;
+    margin-left: 15px;
+    line-height: 25px;
+}
+.aas{
+    width: 98%;
+    line-height: 50px;
+    border-bottom: 1px solid;
+}
+
+.capa_d3 ul li{
+    float: left;
+    width: 460px;
+    height: 270px;
+    overflow: hidden;
+}
+.capa_d3 a{
+    width:435px;
+    height:260px;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+}
+.red_bg{
+    background-color: rgba(210,41,46,0.7);
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    visibility: hidden;
+}
+.red_bg h3{
+    width:50%;
+    text-align: center;
+    color: white;
+    margin: 60px auto;
+}
+.imgRight{
+    float: right;
+}
+.pImage li{
+    margin: 20px 0 20px 0;
+}
+.pImage img{
+    border: 1px solid #C2C0C0;
+}
+.cpj{
+    /*todo*/
+}
+.cpj_left{
+    float: left;
+}
+.cpj_right{
+    width:49%;
+    float: right;
+}
+.cpj_right h3{
+    font-size: 18px;
+    color: #D1272C;
+}
+.cpj_right p{
+    margin-top: 10px;
+}
+.dp{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #797C85;
+}
+
+.capa_d2{
+    width:920px;
+    margin:30px 0 30px 0;
+}
+.capa_d2 h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.capa_d2 p{
+    width: 100%;
+    line-height: 20px;
+}
+.capa_d2 img{
+    margin-top: 20px;
+}
+#cnc_table td{
+    width: 200px;
+}
+
+
+@media(max-width: 440px){
+    #dev_d ul li{
+        width: 50% !important;
+        height: 86px !important;
+    }
+    .capa_d h3{
+        font-size: 12.5px !important;
+    }
+    .capa_d2 h3{
+        font-size: 12.5px !important;
+    }
+    .qPic_2 li{
+        width:100% !important;
+    }
+}
+@media(max-width: 640px){
+    #xy_main{
+        width: 100% !important;
+        height: auto !important;
+        margin: 10px auto !important;
+    }
+    #xy_main_left{
+        display: none;
+    }
+    #xy_main_right{
+        float: none !important;
+        width: 95% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+    }
+    #development{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #dev_d{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #dev_d ul li{
+        width: 25% ;
+        padding: 0 ;
+    }
+    .capa_d{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .capa_d2{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .capa_d2 img{
+    }
+    .ul_p{
+        width: 100%;
+    }
+    .ul_p li{
+        width: 50% !important;
+    }
+    .ul_p li img{
+        width: 100% !important;
+    }
+    .ul_p li div:first-child{
+        width: 95% !important;
+    }
+    .ul_p li li{
+        width: 100% !important;
+        list-style: none !important;
+        margin: 0 !important;
+    }
+    .bottom_name{
+        height: 30px !important;
+    }
+    .bottom_name h3{
+        font-size: 12px !important;
+        line-height: 30px !important;
+        padding: 0 !important;
+    }
+    .qPic_2 li div:first-child{
+        width: 98% !important;
+    }
+    .cpj_left{
+        float: none !important;
+    }
+    .cpj_right{
+        width:100% !important;
+        float: none !important;
+    }
+    .pImage li{
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+        border: 1px solid #C2C0C0;
+    }
+    .pImage li a{
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .pImage li img{
+        float: none !important;
+        border:0 !important;
+    }
+
+}
