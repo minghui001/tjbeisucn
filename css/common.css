@@ -17,7 +17,7 @@
     margin-top: 10px;
 }
 #xy_main_left ul li{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
 #xy_main_left ul li a:hover{
@@ -260,6 +260,7 @@ table{
 .cpj_left{
     float: left;
 }
+
 .cpj_right{
     width:49%;
     float: right;

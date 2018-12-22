@@ -1,8 +1,9 @@
 body {
 	font-family:microsoft yahei,微软雅黑
 }
+
 body,button,input,textarea {
-	font-size:12px;
+	font-size:16px;
 	outline:0;
 	margin:0;
 	padding:0;
@@ -22,7 +23,7 @@ ul,ol {
 	list-style:none
 }
 h1,h2,h3,h4,h5,h6 {
-	font-size:12px;
+	/* font-size:18px; */
 	margin:0;
 	padding:0
 }
@@ -292,7 +293,18 @@ p {
 #header_right {
 	width:700px;
 	height:57px;
-	float:right
+	float:right;
+	text-align: center;
+}
+#number {
+	width:300px;
+	float:right;
+	margin:20px 0 0 0
+}
+.number_a_red {
+	color:#d43539;
+	font-weight:700;
+	text-align: left;
 }
 #logo {
 	width:204px;
