@@ -71,7 +71,7 @@ p {
 	display:none!important
 }
 #pageTop {
-	height:50px!important;
+	/* height:50px!important; */
 	position:relative!important;
 	background-color:#d43539!important
 }
@@ -282,7 +282,7 @@ p {
 	height:171px!important
 }
 }#pageTop {
-	position:fixed;
+	/* position:fixed; */
 	top:0;
 	left:0;
 	background-color:#fff;
