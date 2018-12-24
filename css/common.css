@@ -257,6 +257,9 @@ table{
 .cpj{
     /*todo*/
 }
+.cpj ul li{
+    text-indent: 2em
+}
 .cpj_left{
     float: left;
 }
