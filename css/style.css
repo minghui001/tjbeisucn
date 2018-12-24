@@ -709,7 +709,7 @@ input[type=text]:focus {
 	width:100%;
 	text-align:center;
 	line-height:24px;
-	font-size:12px
+	font-size:14px
 }
 #readMore_d {
 	width:130px;
@@ -747,7 +747,7 @@ input[type=text]:focus {
 .mt p {
 	width:100%;
 	line-height:24px;
-	font-size:12px;
+	font-size:14px;
 	text-align:center;
 	margin-bottom:10px;
 	height:96px
@@ -797,7 +797,7 @@ input[type=text]:focus {
 #pmt p {
 	width:100%;
 	line-height:24px;
-	font-size:12px;
+	font-size:14px;
 	text-align:center;
 	margin-top:10px
 }
