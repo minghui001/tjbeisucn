@@ -944,3 +944,85 @@ input[type=text]:focus {
 #copyright div ul li:last-child {
 	float:right
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+	position: relative
+}
+
+.carousel-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden
+}
+
+.carousel-item {
+	position: relative;
+	display: none;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	perspective: 1000px
+}
+
+.carousel-item-next,.carousel-item-prev,.carousel-item.active {
+	display: block;
+	transition: -webkit-transform .6s ease;
+	transition: transform .6s ease;
+	transition: transform .6s ease,-webkit-transform .6s ease
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+	.carousel-item-next,.carousel-item-prev,.carousel-item.active {
+		transition: none
+	}
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity
+}
+
+
+
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 30%;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center
+}
+
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
